@@ -1,0 +1,21 @@
+id,Model,Make,MSRP(USD),CC,BHP,Has ABS?,Type
+0,H2,Kawasaki,"$31,500.00",998,305,TRUE,Sport
+1,S1000RR,BMW,"$18,295.00",999,204,TRUE,Sport
+2,MT07,Yamaha,"$8,199.00",689,66.8,TRUE,Naked
+3,Ninja 400,Kawasaki,"$5,299.00",400,49,TRUE,Sport
+4,YZF-R1,Yamaha,"$17,999.00",998,198,TRUE,Sport
+5,FTR 1200,Indian,"$13,499.00",1200,120,TRUE,Cruiser
+6,Road Glide,Harley-Davidson,"$50,495.00",1868,105,FALSE,Tourer
+7,MT03,Yamaha,"$4,999.00",321,41.4,FALSE,Naked
+8,R3,Yamaha,"$5,499.00",321,41.4,FALSE,Sport
+9,R1300GS,BMW,"$45,990.00",1300,145,TRUE,Adventure
+10,Tenere 700,Yamaha,"$10,799.00",689,72,TRUE,Adventure
+11,Hayabusa,Suzuki,"$18,799.00",1340,190,FALSE,Sport
+12,KLR650,Kawasaki,"$6,899.00",650,48,FALSE,Adventure
+13,DR650,Suzuki,"$6,999.00",650,43.5,FALSE,Adventure
+14,F800gs,BMW,"$21,990.00",800,87,TRUE,Adventure
+15,CR250R,Honda,"$8,299.00",250,50,FALSE,Off-Road
+16,SV650,Suzuki,"$10,999.00",650,69,TRUE,Naked
+17,1390 SuperDuke,KTM,"$21,499.00",1350,187.7,TRUE,Naked
+18,390 Duke,KTM,"$6,299.00",390,44,TRUE,Naked
+19,1290 Super-Adventure R,KTM,"$20,299.00",1301,160,TRUE,Adventure
