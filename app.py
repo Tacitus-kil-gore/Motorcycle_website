@@ -33,11 +33,18 @@ def render_motorcycles():  # put application's code here
 
    return render_template("motorcycles.html", data=data_list)
 
-@app.route('/Sigma.html')
-def render_sigma():  # put application's code here
-   return render_template("Sigma.html")
+@app.route('/Sports.html')
+def render_Sports():  # put application's code here
 
+   query = "Select Model, Make, Price, Displacement, Power, ABS, Style From moto_table WHERE Style = 'Sport'"
+   connection = create_connection(DATABASE)
+   cursor = connection.cursor()
+   cursor.execute(query)
 
+   data_list = cursor.fetchall()
+   print(data_list)
+
+   return render_template("Sports.html", data=data_list)
 
 
 if __name__ == '__main__':
