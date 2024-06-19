@@ -2,18 +2,52 @@
 {% block main %}
 
     <table>
-        <tr>
-            <td> Siglama</td>
-        </tr>
-        <tr>
-            <td> Siglama</td>
-        </tr>
-        <tr>
-            <td> Siglama</td>
-        </tr>
-        <tr>
-            <td> Siglama</td>
-        </tr>
+        <thead>
+            <tr>
+                <td>Model</td>
+
+                <td>Make</td>
+
+                <td>Price</td>
+
+                <td>Displacement</td>
+
+                <td>Power</td>
+
+                <td>ABS</td>
+
+                <td>Style</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            {% for row in data %}
+                <tr>
+                    <td>
+                        {{ row[0] }}
+                    </td>
+                    <td>
+                        {{ row[1] }}
+                    </td>
+                    <td>
+                        {{ row[2] }}
+                    </td>
+                    <td>
+                        {{ row[3] }}
+                    </td>
+                    <td>
+                        {{ row[4] }}
+                    </td>
+                    <td>
+                        {{ row[5] }}
+                    </td>
+                    <td>
+                        {{ row[0] }}
+                    </td>
+                </tr>
+            {% endfor %}
+
+        </tbody>
     </table>
 
 {% endblock %}
