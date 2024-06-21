@@ -10,9 +10,18 @@
            <div class="logo">MotoSigma</div>
            <div class="nav-items">
                <a href="/">Home</a>
-               <a href="/motorcycles.html">Motorcycles</a>
-               <a href="/Sports.html">Sports Bikes</a>
+               <a href="/display/Sport">Sports Bikes</a>
+               <a href="/display/Adventure">ADV Bikes</a>
+               <a href="/display/Naked">Naked Bikes</a>
+               <a href="/display/Cruiser">Cruisers</a>
+               <a href="/display/Off-Road">Dirt-Bikes</a>
+               <a href="/display/Tourer">Baggers</a>
            </div>
+           <form method="post" action="/search">
+               <label for="searchbox">Search the database: </label>
+               <input type="text" name="Search" id="searchbox">
+               <input type="submit" value="Search!">
+           </form>
        </nav>
        <main class="hero">
             {% block main %}
